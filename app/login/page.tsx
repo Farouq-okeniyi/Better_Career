@@ -44,7 +44,7 @@ export default function LoginPage() {
                   <Briefcase className="h-7 w-7 text-primary-foreground" />
                 </div>
                 <h1 className="mt-4 text-2xl font-bold text-foreground">Welcome Back</h1>
-                <p className="mt-2 text-muted-foreground">Sign in to your KaziHub account</p>
+                <p className="mt-2 text-muted-foreground">Sign in to your BetterCarrer account</p>
               </div>
 
               <form onSubmit={handleSubmit} className="mt-8 space-y-6">

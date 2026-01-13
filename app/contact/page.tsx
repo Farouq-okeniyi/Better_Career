@@ -46,7 +46,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-foreground">Email</h3>
-                    <p className="mt-1 text-muted-foreground">support@kazihub.co.tz</p>
+                    <p className="mt-1 text-muted-foreground">support@bettercareer.co.tz</p>
                   </div>
                 </div>
 

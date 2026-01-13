@@ -7,7 +7,7 @@ import { Quote } from "lucide-react"
 const testimonials = [
   {
     quote:
-      "KaziHub helped me find my dream job in just two weeks! The platform is easy to use and the job matching is excellent.",
+      "Better Career helped me find my dream job in just two weeks! The platform is easy to use and the job matching is excellent.",
     name: "Sarah Mwakasege",
     role: "Software Developer",
     company: "TechHub Africa",
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "As an employer, KaziHub has been invaluable in finding qualified candidates. The quality of applicants is consistently high.",
+      "As an employer, Better Career has been invaluable in finding qualified candidates. The quality of applicants is consistently high.",
     name: "James Kileo",
     role: "HR Director",
     company: "Paradise Resorts",
