@@ -120,8 +120,44 @@ export function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-foreground">Verified Candidates</div>
-                  <div className="text-xs text-muted-foreground">Ready to work</div>
+                  <div className="text-sm font-semibold text-foreground">Recruitment for SMEs:</div>
+                  <div className="text-xs text-muted-foreground">Post jobs, get shortlisted candidates</div>
+                </div>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="absolute -bottom-6 -right-1 rounded-2xl bg-white p-4 shadow-xl"
+            >
+              <div className="flex items-center gap-3">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
+                  <svg className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-sm font-semibold text-foreground">HR-as-a-Service:</div>
+                  <div className="text-xs text-muted-foreground">We set up your contracts</div>
+                </div>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="absolute -top-6 -left-1 rounded-2xl bg-white p-4 shadow-xl"
+            >
+              <div className="flex items-center gap-3">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
+                  <svg className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-sm font-semibold text-foreground">Labor Management Software:</div>
+                  <div className="text-xs text-muted-foreground">Track attendance, shifts, and payments for field workers, factory staff, or contract teams with no app downloads needed</div>
                 </div>
               </div>
             </motion.div>
