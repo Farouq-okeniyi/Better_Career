@@ -121,7 +121,7 @@ export function HeroSection() {
                 </div>
                 <div>
                   <div className="text-sm font-semibold text-foreground">Recruitment for SMEs:</div>
-                  <div className="text-xs text-muted-foreground">Post jobs, get shortlisted candidates</div>
+                  <div className="text-xs text-muted-foreground">PWe handle HR compliance so you don’t get fined or sued.</div>
                 </div>
               </div>
             </motion.div>
