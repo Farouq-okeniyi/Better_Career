@@ -39,8 +39,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-4 text-sm text-white/70">
-              Tanzania&apos;s premier job portal connecting talented professionals with top employers across
-              Manufacturing, Hospitality, Transport, Logistics and Construction.
+              Don’t waste time guessing on labor laws, bad hires, or paperwork. Let Better Career handle your HR operations while you focus on running your business.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm text-white/80">
               <span>

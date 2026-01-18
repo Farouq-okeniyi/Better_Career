@@ -4,12 +4,39 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 
 const companies = [
-  { name: "TechHub Africa", logo: "/modern-tech-logo.png" },
-  { name: "Paradise Resorts", logo: "/luxury-hotel-resort-logo.jpg" },
-  { name: "SwiftCargo Ltd", logo: "/logistics-shipping-company-logo.jpg" },
-  { name: "BuildTech Tanzania", logo: "/construction-company-logo.png" },
-  { name: "Tanzania Industries", logo: "/manufacturing-industrial-logo.jpg" },
-]
+  {
+    name: "Roselle",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/12/Roselle-Logo-1.png",
+  },
+  {
+    name: "Estami Hotel Tanga",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/Estami-Hotel-Tanga.png",
+  },
+  {
+    name: "Babymoon",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/Babymoon.png",
+  },
+  {
+    name: "Creative Studios",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/12/colored-logo.png",
+  },
+  {
+    name: "PPTL Tanga",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/PPTL-Tanga.png",
+  },
+  {
+    name: "Women Choice Industries",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/Women-Choice-Industries.png",
+  },
+  {
+    name: "BGCCL",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/BGCCL.jpg",
+  },
+  {
+    name: "Salama Pads",
+    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/12/salama-pads.png",
+  },
+];
 
 export function TrustedCompaniesSection() {
   return (

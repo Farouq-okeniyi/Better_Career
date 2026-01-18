@@ -21,10 +21,11 @@ export function HeroSection() {
           >
             <p className="mb-4 text-lg font-medium text-white/90">Welcome to Better Career</p>
             <h1 className="text-balance text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-              Find Jobs and Internships in Tanzania
+              HR Services for SMEs and Startups in Africa - Simple, Fast, and Mobile-First
+
             </h1>
             <p className="mt-6 text-lg text-white/80">
-             Better Career is the all in one HR platform for African SMEs designed for WhatsApp. We simplify hiring, labor management, and legal compliance so business owners can manage teams without complex software or extra staff.
+            Better Career is a tech-enabled HR platform built for African SMEs. We help you hire, manage staff, and stay compliant with human support and tools that work on WhatsApp.
             </p>
 
             {/* Search Box */}
@@ -64,10 +65,11 @@ export function HeroSection() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white"
+                  className="border-white/30 bg-white text-black hover:bg-white/10 hover:text-white"
                   
                 >
                   Talk to Hr
+                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
             </div>
