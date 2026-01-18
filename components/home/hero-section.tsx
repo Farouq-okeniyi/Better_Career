@@ -100,7 +100,7 @@ export function HeroSection() {
           >
             <div className="relative aspect-square overflow-hidden rounded-3xl">
               <Image
-                src="/diverse-professional-team-working-together-in-mode.jpg"
+                src="/AdobeStock_245430193.jpg"
                 alt="Professional team working together"
                 fill
                 className="object-cover"
@@ -120,8 +120,8 @@ export function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-foreground">Recruitment for SMEs:</div>
-                  <div className="text-xs text-muted-foreground">PWe handle HR compliance so you don’t get fined or sued.</div>
+                  <div className="text-sm font-semibold text-foreground">Recruitment for SMEs</div>
+                  <div className="text-xs text-muted-foreground"> Post jobs, get shortlisted candidates, and hire in 3 - 14 days and not months</div>
                 </div>
               </div>
             </motion.div>
@@ -129,7 +129,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="absolute -bottom-6 -right-1 rounded-2xl bg-white p-4 shadow-xl"
+              className="absolute bottom-66 -right-10 rounded-2xl bg-white p-4 shadow-xl"
             >
               <div className="flex items-center gap-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
@@ -138,8 +138,8 @@ export function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-foreground">HR-as-a-Service:</div>
-                  <div className="text-xs text-muted-foreground">We set up your contracts</div>
+                  <div className="text-sm font-semibold text-foreground">HR as a Service:</div>
+                  <div className="text-xs text-muted-foreground">Custom HR, contracts, and compliance plus an assistant on call.</div>
                 </div>
               </div>
             </motion.div>
@@ -147,7 +147,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="absolute -top-6 -left-1 rounded-2xl bg-white p-4 shadow-xl"
+              className="absolute top-90 -left-50 rounded-2xl bg-white p-4 shadow-xl"
             >
               <div className="flex items-center gap-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
@@ -156,8 +156,8 @@ export function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-foreground">Labor Management Software:</div>
-                  <div className="text-xs text-muted-foreground">Track attendance, shifts, and payments for field workers, factory staff, or contract teams with no app downloads needed</div>
+                  <div className="text-sm font-semibold text-foreground">Labor Management Tool</div>
+                  <div className="text-xs text-muted-foreground">Track and manage field and factory teams attendance, work, contracts, payroll.</div>
                 </div>
               </div>
             </motion.div>

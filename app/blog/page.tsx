@@ -7,34 +7,62 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 
+// const blogPosts = [
+//   {
+//     title: "Top 10 Interview Tips for Job Seekers in Tanzania",
+//     excerpt:
+//       "Master the art of interviewing with these essential tips that will help you stand out from the competition.",
+//     image: "/professional-job-interview-setting.jpg",
+//     author: "Sarah Mwakasege",
+//     date: "Jan 5, 2026",
+//     category: "Career Advice",
+//   },
+//   {
+//     title: "The Future of Remote Work in East Africa",
+//     excerpt: "Explore how remote work is transforming the job market and what it means for Tanzanian professionals.",
+//     image: "/remote-work-africa.jpg",
+//     author: "James Kileo",
+//     date: "Dec 28, 2025",
+//     category: "Industry Trends",
+//   },
+//   {
+//     title: "How to Write a Winning CV",
+//     excerpt: "Learn the secrets to creating a CV that gets you noticed by top employers in Tanzania.",
+//     image: "/resume-writing.jpg",
+//     author: "Grace Ndunguru",
+//     date: "Dec 15, 2025",
+//     category: "Career Advice",
+//   },
+// ]
 const blogPosts = [
   {
-    title: "Top 10 Interview Tips for Job Seekers in Tanzania",
+    title: "How to Recruit Qualified Talent and Interns in Tanzania Fast?",
     excerpt:
-      "Master the art of interviewing with these essential tips that will help you stand out from the competition.",
-    image: "/professional-job-interview-setting.jpg",
-    author: "Sarah Mwakasege",
-    date: "Jan 5, 2026",
-    category: "Career Advice",
+      "Recruitment in Tanzania has become increasingly challenging. Learn practical strategies that help HR teams, business owners, and recruiters find qualified talent and interns quickly.",
+    image: "https://www.bettercareer.co.tz/wp-content/uploads/2025/10/Young-people-in-business-meeting-2023-11-27-05-36-08-utc-840x430.jpg",
+    author: "Abraham Mmbaga",
+    date: "November 14, 2025",
+    category: "Recruitment / Tech",
   },
   {
-    title: "The Future of Remote Work in East Africa",
-    excerpt: "Explore how remote work is transforming the job market and what it means for Tanzanian professionals.",
-    image: "/remote-work-africa.jpg",
-    author: "James Kileo",
-    date: "Dec 28, 2025",
-    category: "Industry Trends",
+    title: "From Zero to 1,000 Talents: The Journey of Building Better Career",
+    excerpt:
+      "The story of how Better Career Tanzania grew from a basic, messy website in early 2025 to onboarding over 1,000 talents — challenges, improvements and lessons learned.",
+    image: "https://www.bettercareer.co.tz/wp-content/uploads/2024/10/Portal-Laptop-Mockup.1.2jpg-1024x683.jpg",
+    author: "Abraham Mmbaga",
+    date: "October 7, 2025",
+    category: "Company Story / Tech",
   },
   {
-    title: "How to Write a Winning CV",
-    excerpt: "Learn the secrets to creating a CV that gets you noticed by top employers in Tanzania.",
-    image: "/resume-writing.jpg",
-    author: "Grace Ndunguru",
-    date: "Dec 15, 2025",
-    category: "Career Advice",
+    title: "The Changing Face of Hiring in Tanzania | Better Career",
+    excerpt:
+      "Recruitment in Tanzania is evolving rapidly. A look at the current hiring landscape, emerging trends, and how modern platforms are changing the way companies find talent.",
+    image: "https://www.bettercareer.co.tz/wp-content/uploads/2025/10/Serene-Home-Office-with-Engaged-Telecommuter-840x430.png",
+    author: "Abraham Mmbaga",
+    date: "October 6, 2025",
+    category: "Recruitment / Tech",
   },
-]
-
+];
 export default function BlogPage() {
   return (
     <div className="min-h-screen">

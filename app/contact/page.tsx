@@ -35,8 +35,7 @@ export default function ContactPage() {
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }}>
               <h2 className="text-2xl font-semibold text-foreground">Get in Touch</h2>
               <p className="mt-4 text-muted-foreground">
-                We are here to help you find your dream job or the perfect candidate. Reach out to us through any of the
-                channels below.
+               Need help with hiring, compliance, or managing casual labor? Let’s talk.
               </p>
 
               <div className="mt-8 space-y-6">
@@ -56,7 +55,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-foreground">Phone</h3>
-                    <p className="mt-1 text-muted-foreground">+255 123 456 789</p>
+                    <p className="mt-1 text-muted-foreground">+255 758 096 438
+                    </p>
                   </div>
                 </div>
 
@@ -67,9 +67,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-medium text-foreground">Address</h3>
                     <p className="mt-1 text-muted-foreground">
-                      123 Business District
-                      <br />
-                      Dar Es Salaam, Tanzania
+                      
+                    Mlimani City, Dar es Salaam, Tanzania
                     </p>
                   </div>
                 </div>

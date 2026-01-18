@@ -3,23 +3,23 @@ import Image from "next/image"
 import { Linkedin, Instagram } from "lucide-react"
 
 const footerLinks = {
-  forCandidates: [
-    { href: "/jobs", label: "Browse Jobs" },
-    { href: "/companies", label: "Companies" },
-    { href: "/categories", label: "Categories" },
-    { href: "/candidate-dashboard", label: "Candidate Dashboard" },
-  ],
-  forEmployers: [
-    { href: "/post-a-job", label: "Post a Job" },
-    { href: "/applications", label: "View Applications" },
-    { href: "/employer-dashboard", label: "Employer Dashboard" },
-  ],
+  // forCandidates: [
+  //   { href: "/jobs", label: "Browse Jobs" },
+  //   { href: "/companies", label: "Companies" },
+  //   { href: "/categories", label: "Categories" },
+  //   { href: "/candidate-dashboard", label: "Candidate Dashboard" },
+  // ],
+  // forEmployers: [
+  //   { href: "/post-a-job", label: "Post a Job" },
+  //   { href: "/applications", label: "View Applications" },
+  //   { href: "/employer-dashboard", label: "Employer Dashboard" },
+  // ],
   pages: [
-    { href: "/about", label: "About Better Career" },
+    // { href: "/about", label: "About Better Career" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
-    { href: "/faq", label: "FAQ" },
-    { href: "/privacy", label: "Privacy Policy" },
+    // { href: "/faq", label: "FAQ" },
+    // { href: "/privacy", label: "Privacy Policy" },
   ],
 }
 
@@ -27,9 +27,9 @@ export function Footer() {
   return (
     <footer className="bg-[#1E3A5F] text-white">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-between">
               <Image
                 src="https://www.bettercareer.co.tz/wp-content/uploads/2024/05/logo_Better-Career_blue@4x.webp"
                 alt="Better Career"
@@ -41,7 +41,7 @@ export function Footer() {
             <p className="mt-4 text-sm text-white/70">
               Don’t waste time guessing on labor laws, bad hires, or paperwork. Let Better Career handle your HR operations while you focus on running your business.
             </p>
-            <div className="mt-4 flex flex-wrap gap-4 text-sm text-white/80">
+            {/* <div className="mt-4 flex flex-wrap gap-4 text-sm text-white/80">
               <span>
                 <strong>130+</strong> Talent Matched
               </span>
@@ -51,7 +51,7 @@ export function Footer() {
               <span>
                 <strong>5</strong> Active Contracts with SMEs
               </span>
-            </div>
+            </div> */}
             <div className="mt-6 flex gap-4">
               <a
                 href="https://www.linkedin.com/company/78454861"
@@ -83,7 +83,7 @@ export function Footer() {
           </div>
 
           {/* For Candidates */}
-          <div>
+          {/* <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider">For Candidates</h3>
             <ul className="mt-4 space-y-3">
               {footerLinks.forCandidates.map((link) => (
@@ -94,10 +94,10 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* For Employers */}
-          <div>
+          {/* <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider">For Employers</h3>
             <ul className="mt-4 space-y-3">
               {footerLinks.forEmployers.map((link) => (
@@ -108,12 +108,12 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Pages */}
-          <div>
+          <div className="justify-self-end  ">
             <h3 className="text-sm font-semibold uppercase tracking-wider">Pages</h3>
-            <ul className="mt-4 space-y-3">
+            <ul className="mt-4 space-y-3 ">
               {footerLinks.pages.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-sm text-white/70 transition-colors hover:text-white">

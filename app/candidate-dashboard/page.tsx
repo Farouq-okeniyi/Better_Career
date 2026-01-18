@@ -32,10 +32,10 @@ export default function CandidateDashboardPage() {
       <main className="py-12">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <div className="mb-8">
+            {/* <div className="mb-8">
               <h1 className="text-3xl font-bold text-foreground">Candidate Dashboard</h1>
               <p className="mt-2 text-lg text-muted-foreground">Track your job applications</p>
-            </div>
+            </div> */}
 
             {/* Stats Cards */}
             <div className="mb-8 grid gap-4 sm:grid-cols-3">
