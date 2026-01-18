@@ -20,7 +20,7 @@ export function HeroSection() {
             className="text-white"
           >
             <p className="mb-4 text-lg font-medium text-white/90">Welcome to Better Career</p>
-            <h1 className="text-balance text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
+            <h1 className="text-balance text-4xl font-bold leading-tight sm:text-5xl lg:text-4xl">
               HR Services for SMEs and Startups in Africa - Simple, Fast, and Mobile-First
 
             </h1>
