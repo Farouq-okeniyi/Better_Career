@@ -4,10 +4,10 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 
 const companies = [
-  {
-    name: "Roselle",
-    logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/12/Roselle-Logo-1.png",
-  },
+  // {
+  //   name: "Roselle",
+  //   logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/12/Roselle-Logo-1.png",
+  // },
   {
     name: "Estami Hotel Tanga",
     logo: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/Estami-Hotel-Tanga.png",
@@ -70,9 +70,9 @@ export function TrustedCompaniesSection() {
               <Image
                 src={company.logo || "/placeholder.svg"}
                 alt={company.name}
-                width={120}
-                height={60}
-                className="h-12 w-auto"
+                width={150}
+                height={150}
+                className="h-32 w-52"
               />
             </motion.div>
           ))}
