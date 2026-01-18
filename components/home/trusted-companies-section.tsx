@@ -72,7 +72,7 @@ export function TrustedCompaniesSection() {
                 alt={company.name}
                 width={150}
                 height={150}
-                className="h-32 w-52"
+                className="h-22 w-32"
               />
             </motion.div>
           ))}
