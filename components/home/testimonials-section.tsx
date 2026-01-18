@@ -7,29 +7,30 @@ import { Quote } from "lucide-react"
 const testimonials = [
   {
     quote:
-      "Better Career helped me find my dream job in just two weeks! The platform is easy to use and the job matching is excellent.",
-    name: "Sarah Mwakasege",
-    role: "Software Developer",
-    company: "TechHub Africa",
-    image: "/professional-african-woman.png",
+      "I appreciate Better Career for matching me with just the salespeople I needed and at the budget specified. Better Career are excellent at what they do.",
+    name: "Adam Beleko",
+    role: "CEO",
+    company: "Larven Technologies",
+    image: "https://www.bettercareer.co.tz/wp-content/uploads/2025/04/1716227959846.jpeg",
   },
   {
     quote:
-      "As an employer, Better Career has been invaluable in finding qualified candidates. The quality of applicants is consistently high.",
-    name: "James Kileo",
-    role: "HR Director",
-    company: "Paradise Resorts",
-    image: "/professional-african-man-portrait-business.jpg",
+      "Morning, I hope you're well. I am just thankful for that job opportunity you linked me to, I have got the job. It is so good that you help people get opportunities.",
+    name: "Nelly Njau",
+    role: "Talent",
+    company: "Better Career",
+    image: "https://www.bettercareer.co.tz/wp-content/uploads/2015/10/Nelly-Njau.jpg",
   },
   {
     quote:
-      "The best job portal in Tanzania! I love how easy it is to browse jobs by category and location. Highly recommended!",
-    name: "Grace Ndunguru",
-    role: "Marketing Manager",
-    company: "SwiftCargo Ltd",
-    image: "/professional-african-woman-portrait-corporate.jpg",
+      "Working with Better Career has been a seamless experience. Their professionalism, responsiveness, and genuine care for both employer and candidate needs truly stand out. A platform that understands the local market while maintaining global standards.",
+    name: "Sandra Aikaruwa Mushi",
+    role: "Principal Interior Architecture Designer",
+    company: "Creative Studios Ltd",
+    image: "https://www.bettercareer.co.tz/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-12-at-07.40.17_86faf17f.jpg",
   },
 ]
+
 
 export function TestimonialsSection() {
   return (

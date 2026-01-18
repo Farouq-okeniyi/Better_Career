@@ -24,12 +24,11 @@ export function HeroSection() {
               Find Jobs and Internships in Tanzania
             </h1>
             <p className="mt-6 text-lg text-white/80">
-              Connect with top employers across Tanzania. Whether you are looking for your next career opportunity or
-              seeking talented professionals, Better Career is your trusted partner.
+             Better Career is the all in one HR platform for African SMEs designed for WhatsApp. We simplify hiring, labor management, and legal compliance so business owners can manage teams without complex software or extra staff.
             </p>
 
             {/* Search Box */}
-            <div className="mt-8 flex flex-col gap-3 rounded-2xl bg-white p-4 shadow-xl sm:flex-row sm:items-center">
+            {/* <div className="mt-8 flex flex-col gap-3 rounded-2xl bg-white p-4 shadow-xl sm:flex-row sm:items-center">
               <div className="flex flex-1 items-center gap-2 rounded-xl bg-secondary px-4 py-3">
                 <Search className="h-5 w-5 text-muted-foreground" />
                 <input
@@ -51,7 +50,7 @@ export function HeroSection() {
                   Search
                 </Button>
               </Link>
-            </div>
+            </div> */}
 
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
@@ -61,13 +60,14 @@ export function HeroSection() {
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
-              <Link href="/jobs">
+              <Link href="www.calendly.com/bettercareer/30min">
                 <Button
                   variant="outline"
                   size="lg"
                   className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white"
+                  
                 >
-                  Advanced Search
+                  Talk to Hr
                 </Button>
               </Link>
             </div>
@@ -75,16 +75,16 @@ export function HeroSection() {
             {/* Stats */}
             <div className="mt-10 flex flex-wrap gap-8">
               <div>
-                <div className="text-3xl font-bold">6+</div>
-                <div className="text-sm text-white/70">Job Listings</div>
+                <div className="text-3xl font-bold">130+</div>
+                <div className="text-sm text-white/70">Talent Matched</div>
               </div>
               <div>
-                <div className="text-3xl font-bold">1,244+</div>
-                <div className="text-sm text-white/70">Talents Onboard</div>
+                <div className="text-3xl font-bold">15</div>
+                <div className="text-sm text-white/70">SMEs Onboard</div>
               </div>
               <div>
-                <div className="text-3xl font-bold">10+</div>
-                <div className="text-sm text-white/70">SMEs & Startups</div>
+                <div className="text-3xl font-bold">5</div>
+                <div className="text-sm text-white/70">Active Contracts with SMEs</div>
               </div>
             </div>
           </motion.div>

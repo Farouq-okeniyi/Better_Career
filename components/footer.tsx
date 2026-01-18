@@ -44,13 +44,13 @@ export function Footer() {
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm text-white/80">
               <span>
-                <strong>6</strong> Job Listings
+                <strong>130+</strong> Talent Matched
               </span>
               <span>
-                <strong>1244</strong> Talents Onboard
+                <strong>15</strong> SMEs Onboard
               </span>
               <span>
-                <strong>10</strong> SMEs & Startups
+                <strong>5</strong> Active Contracts with SMEs
               </span>
             </div>
             <div className="mt-6 flex gap-4">

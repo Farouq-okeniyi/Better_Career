@@ -29,7 +29,7 @@ export default function ContactPage() {
             <h1 className="text-3xl font-bold text-foreground sm:text-4xl">Contact Us</h1>
             <p className="mt-4 text-lg text-muted-foreground">Have questions? We would love to hear from you.</p>
           </motion.div>
-
+      {/* www.calendly.com/bettercareer/30min  */}
           <div className="grid gap-12 lg:grid-cols-2">
             {/* Contact Info */}
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }}>

@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Better Career - Find the Right Job Vacancies in Tanzania",
   description:
-    "Tanzania's premier job portal connecting talented professionals with top employers. Find jobs and internships across Manufacturing, Hospitality, Transport, Logistics and Construction.",
+    "Better Career is the all-in-one HR platform for African SMEs—designed for WhatsApp. We simplify hiring, labor management, and legal compliance so business owners can manage teams without complex software or extra staff.",
     generator: 'v0.app'
 }
 

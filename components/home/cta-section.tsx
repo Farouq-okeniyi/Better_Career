@@ -21,8 +21,8 @@ export function CtaSection() {
               Step inside and see for yourself
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80">
-              Join thousands of employers who trust Better Career to find the best candidates. A fully integrated 360°
-              Recruitment and Talent Management Platform.
+             Don’t waste time guessing on labor laws, bad hires, or paperwork. Let Better Career handle your HR operations while you focus on running your business.
+Serving SMEs across Tanzania, Uganda, and East Africa.
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Link href="/login">
