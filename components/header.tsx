@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { ChevronDown, Menu, X } from "lucide-react"
 import { useJobs } from "@/contexts/job-context"
 import { Button } from "@/components/ui/button"
+import BetterCareer from "../public/BetterCareer-logo-white.png"
 
 const candidateLinks = [
   { href: "/jobs", label: "Browse Jobs" },
@@ -28,12 +29,13 @@ export function Header() {
   const [employerDropdown, setEmployerDropdown] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header className="sticky top-0 z-50 bg-[#3bdb9d] shadow-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="https://www.bettercareer.co.tz/wp-content/uploads/2024/05/logo_Better-Career_blue.png"
+              src={BetterCareer}
+              // src="https://www.bettercareer.co.tz/wp-content/uploads/2024/05/logo_Better-Career_blue.png"
               alt="Better Career"
               width={160}
               height={40}
@@ -43,7 +45,7 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden items-center gap-6 lg:flex">
-            <Link href="/" className="text-sm font-medium text-foreground hover:text-primary">
+            <Link href="/" className="text-sm font-medium text-foreground text-white">
               Home
             </Link>
 
@@ -53,7 +55,7 @@ export function Header() {
               onMouseEnter={() => setCandidateDropdown(true)}
               onMouseLeave={() => setCandidateDropdown(false)}
             >
-              <button className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-primary">
+              <button className="flex items-center gap-1 text-white text-sm font-medium text-foreground hover:text-[white]">
                 For Candidates
                 <ChevronDown className="h-4 w-4" />
               </button>
@@ -63,13 +65,13 @@ export function Header() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
-                    className="absolute left-0 top-full mt-2 w-48 rounded-xl bg-white p-2 shadow-xl"
+                    className="absolute left-0 top-full mt-2 w-48 rounded-xl bg-white p-2 shadow-xl text-white"
                   >
                     {candidateLinks.map((link) => (
                       <Link
                         key={link.href}
                         href={link.href}
-                        className="block rounded-lg px-4 py-2 text-sm text-foreground hover:bg-secondary"
+                        className="block rounded-lg px-4 py-2 text-sm text-foreground hover:bg-white"
                       >
                         {link.label}
                       </Link>
@@ -85,7 +87,7 @@ export function Header() {
               onMouseEnter={() => setEmployerDropdown(true)}
               onMouseLeave={() => setEmployerDropdown(false)}
             >
-              <button className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-primary">
+              <button className="flex items-center gap-1 text-sm font-medium text-foreground text-white hover:text-[white]">
                 For Employers
                 <ChevronDown className="h-4 w-4" />
               </button>
@@ -101,7 +103,7 @@ export function Header() {
                       <Link
                         key={link.href}
                         href={link.href}
-                        className="block rounded-lg px-4 py-2 text-sm text-foreground hover:bg-secondary"
+                        className="block rounded-lg px-4 py-2 text-sm text-foreground hover:bg-white text-white"
                       >
                         {link.label}
                       </Link>
@@ -111,10 +113,10 @@ export function Header() {
               </AnimatePresence>
             </div>
 
-            <Link href="/blog" className="text-sm font-medium text-foreground hover:text-primary">
+            <Link href="/blog" className="text-sm font-medium text-foreground text-white">
               Blog
             </Link>
-            <Link href="/contact" className="text-sm font-medium text-foreground hover:text-primary">
+            <Link href="/contact" className="text-sm font-medium text-foreground text-white">
               Contact
             </Link>
           </nav>
@@ -131,12 +133,12 @@ export function Header() {
             ) : (
               <>
                 <Link href="/login">
-                  <Button variant="ghost" size="sm">
+                  <Button variant="ghost" className="text-white" size="sm">
                     Log In
                   </Button>
                 </Link>
                 <Link href="/login">
-                  <Button size="sm">Register</Button>
+                  <Button size="sm" className="bg-[#075e54]">Register</Button>
                 </Link>
               </>
             )}
@@ -160,7 +162,7 @@ export function Header() {
               <div className="space-y-2 py-4">
                 <Link
                   href="/"
-                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-secondary"
+                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-[#3bdb9d ]"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Home
@@ -170,7 +172,7 @@ export function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="block rounded-lg px-6 py-2 text-sm hover:bg-secondary"
+                    className="block rounded-lg px-6 py-2 text-sm hover:bg-[#3bdb9d]"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {link.label}
@@ -181,7 +183,7 @@ export function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="block rounded-lg px-6 py-2 text-sm hover:bg-secondary"
+                    className="block rounded-lg px-6 py-2 text-sm hover:bg-[#3bdb9d]"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {link.label}
@@ -189,14 +191,14 @@ export function Header() {
                 ))}
                 <Link
                   href="/blog"
-                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-secondary"
+                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-[#3bdb9d]"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Blog
                 </Link>
                 <Link
                   href="/contact"
-                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-secondary"
+                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-[  #3bdb9d]"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Contact

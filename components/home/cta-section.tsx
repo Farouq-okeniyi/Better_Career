@@ -13,7 +13,7 @@ export function CtaSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#4A90D9] via-[#5B9DE0] to-[#6AABE8] px-8 py-16 text-center lg:px-16 lg:py-24"
+          className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#075e54] via-[#075e54] to-[#3bdb9d] px-8 py-16 text-center lg:px-16 lg:py-24"
         >
           <div className="absolute inset-0 bg-[url('/abstract-geometric-flow.png')] opacity-5" />
           <div className="relative">

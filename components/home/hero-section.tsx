@@ -8,7 +8,7 @@ import { ArrowRight, Search, MapPin } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#4A90D9] via-[#5B9DE0] to-[#6AABE8]">
+    <section className="relative overflow-hidden bg-gradient-to-br from-[#075e54] via-[#075e54] to-[#3bdb9d]">
       <div className="absolute inset-0 bg-[url('/abstract-geometric-pattern.png')] opacity-5" />
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="grid items-center gap-12 lg:grid-cols-2">
