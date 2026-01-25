@@ -2,7 +2,9 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
-
+import Image from "next/image"
+import abstrractImage from "./../../public/Better_Career_Pitch_page_1.png"
+import { Fullscreen } from "lucide-react"
 const categories = [
   { name: "Hospitality & Tourism", icon: "🏨", count: 124, color: "bg-orange-100" },
   { name: "Manufacturing", icon: "🏭", count: 89, color: "bg-blue-100" },
@@ -36,7 +38,7 @@ export function CategoriesSection() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h2 className="text-3xl font-bold text-foreground sm:text-4xl">Browse by Category</h2>
+          <h2 className="text-3xl font-bold text-foreground sm:text-4xl">Browse by Categoryies</h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Explore opportunities across Tanzania&apos;s leading industries
           </p>
@@ -69,6 +71,17 @@ export function CategoriesSection() {
           ))}
         </motion.div>
       </div>
+     <div className="relative w-screen h-screen">
+  <Image
+    src={abstrractImage}
+    alt=""
+    fill
+    unoptimized
+    className="object-cover"
+    priority
+  />
+</div>
+
     </section>
   )
 }
