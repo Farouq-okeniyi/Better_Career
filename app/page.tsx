@@ -1,7 +1,7 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { HeroSection } from "@/components/home/hero-section"
-import { CategoriesSection } from "@/components/home/categories-section"
+// import { CategoriesSection } from "@/components/home/categories-section"
 import { RecentJobsSection } from "@/components/home/recent-jobs-section"
 import { TestimonialsSection } from "@/components/home/testimonials-section"
 import { TrustedCompaniesSection } from "@/components/home/trusted-companies-section"
@@ -13,11 +13,11 @@ export default function HomePage() {
       <Header />
       <main>
         <HeroSection />
-        <CategoriesSection />
+        {/* <CategoriesSection /> */}
         <RecentJobsSection />
         <TestimonialsSection />
         <TrustedCompaniesSection />
-        <CtaSection />
+        {/* <CtaSection /> */}
       </main>
       <Footer />
     </div>
