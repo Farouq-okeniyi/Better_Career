@@ -53,32 +53,29 @@ export function HeroSection() {
               </Link>
             </div> */}
 
-           {/* CTA Buttons */}
+          {/* CTA Buttons */}
 <div className="mt-8 flex flex-wrap gap-4">
-  <Button
-    asChild
-    variant="secondary"
-    size="lg"
-    className="gap-2 bg-white text-black hover:bg-white/90"
+  <a
+    href="https://wa.me/15558075789"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 text-lg font-medium text-black shadow hover:bg-white/90"
   >
-    <Link href="https://wa.me/15558075789" target="_blank">
-      Say "Hello" to Post a Job
-      <ArrowRight className="h-4 w-4" />
-    </Link>
-  </Button>
+    Say "Hello" to Post a Job
+    <ArrowRight className="h-4 w-4" />
+  </a>
 
-  <Button
-    asChild
-    variant="outline"
-    size="lg"
-    className="gap-2 border-white/30 bg-white text-black hover:bg-white/90"
+  <a
+    href="https://wa.me/15558075789"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-xl border border-white/30 bg-white px-6 py-3 text-lg font-medium text-black shadow hover:bg-white/90"
   >
-    <Link href="https://wa.me/15558075789" target="_blank">
-      Find Jobs – Say "Hello"
-      <ArrowRight className="h-4 w-4" />
-    </Link>
-  </Button>
+    Find Jobs – Say "Hello"
+    <ArrowRight className="h-4 w-4" />
+  </a>
 </div>
+
 
 
             {/* Stats */}
