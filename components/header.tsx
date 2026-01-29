@@ -103,7 +103,7 @@ export function Header() {
                       <Link
                         key={link.href}
                         href={link.href}
-                        className="block rounded-lg px-4 py-2 text-sm text-foreground hover:bg-white text-white"
+                        className="block rounded-lg px-4 py-2 text-sm text-foreground hover:bg-white text-black"
                       >
                         {link.label}
                       </Link>
