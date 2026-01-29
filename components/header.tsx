@@ -219,6 +219,14 @@ export function Header() {
                         <Button className="w-full">Register</Button>
                       </Link>
                     </>
+              <Link href="https://www.calendly.com/bettercareer/30min" className="flex-1">
+                        <Button variant="outline" className="w-full bg-transparent">
+                          Book a Free Call
+                        </Button>
+                      </Link>
+                      <Link href="https://www.calendly.com/bettercareer/30min" className="flex-1">
+                        <Button className="w-full">Book a Free Call</Button>
+                      </Link>
                   )}
                 </div>
               </div>
