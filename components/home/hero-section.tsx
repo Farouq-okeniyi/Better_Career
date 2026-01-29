@@ -55,9 +55,9 @@ export function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link href="/post-a-job">
+             <Link href="https://wa.me/15558075789">
                 <Button variant="secondary" size="lg" className="gap-2 bg-white text-foreground hover:bg-white/90">
-                  Post a Job Today
+                  Say "Hello" to Post a Job 
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
