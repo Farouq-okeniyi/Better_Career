@@ -53,26 +53,33 @@ export function HeroSection() {
               </Link>
             </div> */}
 
-            {/* CTA Buttons */}
-            <div className="mt-8 flex flex-wrap gap-4">
-             <Link href="https://wa.me/15558075789">
-                <Button variant="secondary" size="lg" className="gap-2 bg-white text-foreground hover:bg-white/90">
-                  Say "Hello" to Post a Job 
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-              <Link href="https://wa.me/15558075789">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-white/30 bg-white text-black hover:bg-white/10 hover:text-white"
-                  
-                >
-                  Talk to Hr
-                   <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
+           {/* CTA Buttons */}
+<div className="mt-8 flex flex-wrap gap-4">
+  <Button
+    asChild
+    variant="secondary"
+    size="lg"
+    className="gap-2 bg-white text-black hover:bg-white/90"
+  >
+    <Link href="https://wa.me/15558075789" target="_blank">
+      Say "Hello" to Post a Job
+      <ArrowRight className="h-4 w-4" />
+    </Link>
+  </Button>
+
+  <Button
+    asChild
+    variant="outline"
+    size="lg"
+    className="gap-2 border-white/30 bg-white text-black hover:bg-white/90"
+  >
+    <Link href="https://wa.me/15558075789" target="_blank">
+      Find Jobs – Say "Hello"
+      <ArrowRight className="h-4 w-4" />
+    </Link>
+  </Button>
+</div>
+
 
             {/* Stats */}
             <div className="mt-10 flex flex-wrap gap-8">
