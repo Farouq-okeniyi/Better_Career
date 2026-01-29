@@ -61,7 +61,7 @@ export function HeroSection() {
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
-              <Link href="www.calendly.com/bettercareer/30min">
+              <Link href="https://wa.me/15558075789">
                 <Button
                   variant="outline"
                   size="lg"
