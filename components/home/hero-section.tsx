@@ -53,28 +53,28 @@ export function HeroSection() {
               </Link>
             </div> */}
 
-          {/* CTA Buttons */}
-<div className="mt-8 flex flex-wrap gap-4">
-  <a
-    href="https://wa.me/15558075789"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 text-lg font-medium text-black shadow hover:bg-white/90"
-  >
-    Say "Hello" to Post a Job
-    <ArrowRight className="h-4 w-4" />
-  </a>
+ {/* CTA Buttons */}
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href="https://wa.me/15558075789"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-3 rounded-xl bg-white px-8 py-4 text-lg font-bold text-primary shadow-xl hover:bg-gray-50 transition-all transform hover:-translate-y-1"
+              >
+                Say "Hello" to Post a Job
+                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </a>
 
-  <a
-    href="https://wa.me/15558075789"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 rounded-xl border border-white/30 bg-white px-6 py-3 text-lg font-medium text-black shadow hover:bg-white/90"
-  >
-    Find Jobs – Say "Hello"
-    <ArrowRight className="h-4 w-4" />
-  </a>
-</div>
+              <a
+                href="https://wa.me/15558075789"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 rounded-xl border-2 border-white/40 bg-transparent px-8 py-4 text-lg font-bold text-white shadow-lg hover:bg-white/10 transition-all"
+              >
+                Find Jobs
+                <ArrowRight className="h-5 w-5" />
+              </a>
+            </div>
 
 
 
