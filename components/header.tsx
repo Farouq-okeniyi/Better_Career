@@ -204,31 +204,45 @@ export function Header() {
                   Contact
                 </Link>
                 <div className="flex gap-2 px-4 pt-4">
-                  {user ? (
-                    <Button variant="outline" className="w-full bg-transparent" onClick={logout}>
-                      Logout
-                    </Button>
-                  ) : (
-                    <>
-                      <Link href="/login" className="flex-1">
-                        <Button variant="outline" className="w-full bg-transparent">
-                          Log In
-                        </Button>
-                      </Link>
-                      <Link href="/login" className="flex-1">
-                        <Button className="w-full">Register</Button>
-                      </Link>
-                    </>
-              <Link href="https://www.calendly.com/bettercareer/30min" className="flex-1">
-                        <Button variant="outline" className="w-full bg-transparent">
-                          Book a Free Call
-                        </Button>
-                      </Link>
-                      <Link href="https://www.calendly.com/bettercareer/30min" className="flex-1">
-                        <Button className="w-full">Book a Free Call</Button>
-                      </Link>
-                  )}
-                </div>
+  {user ? (
+    <Button
+      variant="outline"
+      className="w-full bg-transparent"
+      onClick={logout}
+    >
+      Logout
+    </Button>
+  ) : (
+    <>
+      <Link href="/login" className="flex-1">
+        <Button variant="outline" className="w-full bg-transparent">
+          Log In
+        </Button>
+      </Link>
+
+      <Link href="/login" className="flex-1">
+        <Button className="w-full">Register</Button>
+      </Link>
+
+      <Link
+        href="https://www.calendly.com/bettercareer/30min"
+        className="flex-1"
+      >
+        <Button variant="outline" className="w-full bg-transparent">
+          Book a Free Call
+        </Button>
+      </Link>
+
+      <Link
+        href="https://www.calendly.com/bettercareer/30min"
+        className="flex-1"
+      >
+        <Button className="w-full">Book a Free Call</Button>
+      </Link>
+    </>
+  )}
+</div>
+
               </div>
             </motion.div>
           )}
