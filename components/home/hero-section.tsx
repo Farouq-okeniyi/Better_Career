@@ -3,11 +3,13 @@
 import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import { LandingPageContent } from "./whatsappsection"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Search, MapPin } from "lucide-react"
 
 export function HeroSection() {
   return (
+    <>
     <section className="relative overflow-hidden bg-gradient-to-br from-[#075e54] via-[#075e54] to-[#3bdb9d]">
       <div className="absolute inset-0 bg-[url('/abstract-geometric-pattern.png')] opacity-5" />
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
@@ -151,13 +153,13 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="absolute top-90 -left-50 rounded-2xl bg-white p-4 shadow-xl"
+              className="absolute top-90 -left-30 rounded-2xl bg-white p-4 shadow-xl"
             >
               <div className="flex items-center gap-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
                   <svg className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
+                  </svg>  
                 </div>
                 <div>
                   <div className="text-sm font-semibold text-foreground">Labor Management Tool</div>
@@ -169,5 +171,9 @@ export function HeroSection() {
         </div>
       </div>
     </section>
+    <div className="bg-green">
+      <LandingPageContent />
+    </div>
+  </>
   )
 }

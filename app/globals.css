@@ -1,8 +1,5 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
-
 /* Updated color scheme to light blue and white matching Better Career logo */
 :root {
   --background: oklch(1 0 0);
